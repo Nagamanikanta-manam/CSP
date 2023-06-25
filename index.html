@@ -4,30 +4,52 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet"> 
-                  
+        <link rel="icon" href="TittleLogo.png">
+        <title>AHL Foundation</title>
           <style>
            *{
             margin:0px;
           }
-          .line2{
+         .line2{
             justify-self:center ;
-            height: 100px;
-            width:3px;
+            height: 12vh;
+            width:0.3vw;
             background-color: white;
-            grid-column: 5;
+            grid-column: 6;
             grid-row:3/9;
 
           }
           .contact{
-            grid-column: 2/5;
+            grid-column: 2/6;
             grid-row:3/11;
             font-family: roboto;
+            font-size: 2.5vmin;
            /* background-color: white;*/
           }
           .contact h3{
             text-decoration: underline;
             
             font-size: 4vmin;
+          }
+          .Chat{
+            position: fixed;
+            display: inline-block;
+            width:10vw;
+            height:5vh;
+            background-color:#25D366;
+            color: white;
+            top:40vh;
+            right:0vw;
+            border-radius: 20px 0px 0px 20px;
+            text-align: center;
+            font-size: 4vmin;
+            font-family: Impact;
+            
+          }
+          .Chat a{
+            color:white;
+            text-decoration: none;
+            
           }
           .donate{
             position: fixed;
@@ -37,22 +59,24 @@
             background-color: #EA906C;
             color: white;
             top:50vh;
-            border-radius: 0px 20px 20px 0px;
+            right:0vw;
+            border-radius: 20px 0px 0px 20px;
             text-align: center;
             font-size: 4vmin;
             font-family: Impact;
             
           }
           .donate a{
-            
+            color:white;
             text-decoration: none;
+
           }
           fotter{
             display: grid;
             grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
             grid-template-rows:2vh 2vh 2vh 2vh 2vh 2vh 2vh 2vh 2vh 2vh ;
-            position:relative;
-            top:50vh;
+            position:absolute;
+            bottom:-20vh;
             background-color: rgb(114, 150, 157);
             
           }
@@ -78,10 +102,15 @@
                 border-radius:10px;
                 text-align: center;
                 color:black;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
             }
+            
             .report a{
                 text-decoration: none;
             }
+            
             .head1{
                 grid-column:4/9;
                 grid-row:2;
@@ -98,10 +127,7 @@
                 font-family:anton;
                 align-self:center;
             }
-            .report{
-                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-            }
+           
            .logo{
             grid-column: 1;
             grid-row:3/10;
@@ -140,9 +166,16 @@
                 /*align-self:center ;*/
                 
                  }
+                 .login:hover{
+                  
+                  background-color:powderblue;
+                 }
                  .login a{
                     text-decoration: none;
                  } 
+                 .login a:hover{
+                  color:white;
+                 }
                  .as{
                 grid-column:10;
                 grid-row: 7/10;
@@ -154,8 +187,16 @@
                 border-radius: 5px;
                /* align-self:center ;*/
                  }
+                 .as:hover{
+                  
+                  background-color:powderblue;
+                 }
                  .as a{
-                    text-decoration: none;
+                    
+                  text-decoration: none;
+                 }
+                 .as a:hover{
+                  color:white;
                  } 
          
            .banner{
@@ -169,6 +210,14 @@
             position: relative;
             top:15vh;
             z-index: -1;
+           }
+           .box{
+            width:20vw;
+            height:35vh;
+            position: absolute;
+            
+            top:65vh;
+            background-color: aquamarine;
            }
 
           </style>
@@ -186,9 +235,13 @@
         <div class="banner">
          <div class="head1"> Excess food </div>
          <div class="head2"> no more gulity of food waste</div>
-         <div class="report"><a href="">report us</a></div>
+         <div class="report"><a href="https://gecgudlavalleru.ac.in/">report us</a></div>
         </div>
         <div class="donate"><a href="">Donate Us</a></div>
+        <div class="Chat"><a href="">Chat with us</a></div>
+        <div class="box">Served 999+
+          meals
+        </div>
     </body>
     <fotter>
             <div class="contact">
